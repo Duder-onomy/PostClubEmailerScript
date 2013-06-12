@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.BorderLeft {
+  background-image: url(file:///C|/Users/GREG/Google%20Drive/PostClubUsa/Emailer/HTML%20Templates/DOMESTIC%20GENERIC/BorderLeftSide1pixelTall.png);
+  background-repeat: repeat-y;
+}
+.TopLeftBorder {
+  background-image: url(file:///C|/Users/GREG/Google%20Drive/PostClubUsa/Emailer/HTML%20Templates/DOMESTIC%20GENERIC/TopLeftCorner.png);
+}
+.BackgroundShade {
+  background-color: #CCC;
+}
+.HighLightMergeData {
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="21">&nbsp;</td>
+      <td colspan="4">&nbsp;</td>
+      <td width="20">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4"><a href="<?=headerLink?>"><img src="<?=customHeaderLogo?>" width="<?=logoWidth?>" height="<?=logoHeight?>" /></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4"><strong>This is an automated shipment alert, please do not reply to this email.</strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td width="20">&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width="29" align="right">&nbsp;</td>
+      <td width="170" align="left"><strong>Shipment Number:</strong></td>
+      <td width="340"><strong>
+      <?=hawb?>
+      </strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="right">&nbsp;</td>
+      <td align="left"><strong>Order Number:</strong></td>
+      <td><strong><?=shippersRef?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="right">&nbsp;</td>
+      <td align="left"><strong>Delivery address:</strong></td>
+      <td><strong><?= consignee ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= contact ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address1 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address2 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address3 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= town ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= country ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= zip ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= phone ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><em class="HighLightMergeData"><?= name ?> </em>has released your order. This parcel will be delivered to the above address.<br />
+         <br />
+        <strong>Important</strong> If the address is incorrect please contact <a href="mailto:info@postclubusa.com" target="_blank">info@postclubusa.com</a><strong> </strong><em>.<br />
+         </em> <br />
+        The delivery service will utilize Canada Post for final delivery. The link above will provide tracking information from our warehouse to customs clearance in Toronto. From that point your order is injected into Canada Post, you will be able to track directly with the Canada Post.</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><strong>What to Expect:<br />
+      </strong>Your Parcel will be flown to our Canadian sort facility in Toronto. It will be passed through customs then grouped with other parcels from your province. The group of parcels will then be flown or trucked to Vancouver, Calgary, Winnipeg and Halifax based on your postal code. </td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><p><strong>What to Do Next:<br />
+      </strong>Please note, the following method will not work until Canada Post has checked your parcel into their system. Please allow 1-3 days from receiving this email for Canada Post to process your shipment.<strong> </strong><br />
+      Your reference ID is:  <?=hawb?> </p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><ul>
+        <li>Please proceed to the Canada Post website and track the package by reference number. You can do this by clicking this link here: <a href="http://www.canadapost.ca/" target="_blank">http://www.canadapost.ca</a> </li>
+        <li>Then proceed to the portion of the page with the header, &quot;Track By Reference Number&quot;.</li>
+      </ul></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3" align="center"><img src="http://imageshack.us/a/img17/8436/canadainstructions1.png" width="714" height="376" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><ul>
+        <li>Please paste the shipment ID references above into the Track By Reference Number field and set the date range back as far as it will go.</li>
+      </ul></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3" align="center"><img src="http://imageshack.us/a/img829/2558/canadainstructions2.png" width="545" height="417" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><ul>
+        <li>When you click track the site should provide to you your Canada Post tracking Number. Please save this number for your records.</li>
+      </ul></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><p><strong>If there are problems:</strong><br />
+      Please contact us immediately if you see any issues or prolonged periods of no activity. Send an email to <a href="mailto:info@postclubusa.com" target="_blank">info@postclubusa.com</a>  Please reference your tracking number above so we can respond quickly.</p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="32">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3" align="center"><a href="www.postclubusa.com">PostClubUSA - Worldwide Ecommerce Parcel Home Delivery Leaders</a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

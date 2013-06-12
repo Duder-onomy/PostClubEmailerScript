@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.BorderLeft {
+  background-image: url(BorderLeftSide1pixelTall.png);
+  background-repeat: repeat-y;
+}
+.TopLeftBorder {
+  background-image: url(TopLeftCorner.png);
+}
+.BackgroundShade {
+  background-color: #CCC;
+}
+.HighLightMergeData {
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="21">&nbsp;</td>
+      <td colspan="4">&nbsp;</td>
+      <td width="20">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4"><a href="<?=headerLink?>"><img src="<?=customHeaderLogo?>" width="<?=logoWidth?>" height="<?=logoHeight?>" /></a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="4"><strong>This is an automated shipment alert, please do not reply to this email.</strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td width="20">&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width="29" align="right">&nbsp;</td>
+      <td width="170" align="left"><strong>Shipment Number:</strong></td>
+      <td width="340"><strong>
+      <?=hawb?>
+      </strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="right">&nbsp;</td>
+      <td align="left"><strong>Order Number:</strong></td>
+      <td><strong><?=shippersRef?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="right">&nbsp;</td>
+      <td align="left"><strong>T</strong><strong>racking Link:</strong></td>
+      <td><strong><?=trackingLink?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="right">&nbsp;</td>
+      <td align="left"><strong>Delivery address:</strong></td>
+      <td><strong><?= consignee ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= contact ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address1 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address2 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= address3 ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= town ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= country ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= zip ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td><strong><?= phone ?></strong></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><em class="HighLightMergeData"><?= name ?> </em>has released your order. This parcel will be delivered to the above address.<br />
+         <br />        <strong>Important</strong> If the address is incorrect please contact  <em><strong><?= name ?></strong></em><strong> </strong><em>.<br />
+         </em> <br />
+      The parcel will be injected into the USPS system as a priority parcel for final delivery. The link above will provide USPS tracking information. Please allow 5 - 10 hours before tracking details are available on the USPS site. Estimated delivery time is 3 – 5 working days.</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><p><strong>What to do next:</strong><br />
+      Please check the above tracking link for the latest information. In 24-48 hours you will be able to track your parcel on the USPS site.</p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><p><strong>If there are problems:</strong><br />
+      Please contact us if you there any issues or prolonged periods of no activity.   Send an email to <a href="info@postclubusa.com">info@postclubusa.com</a> Please reference your tracking number listed above. </p></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="32">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3"><hr noshade="noshade" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="3" align="center"><a href="www.postclubusa.com">PostClubUSA - Worldwide Ecommerce Parcel Home Delivery Leaders</a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
